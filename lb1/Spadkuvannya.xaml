@@ -1,0 +1,30 @@
+﻿<Window x:Class="lb1.Spadkuvannya"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lb1"
+        mc:Ignorable="d"
+        Title="Spadkuvannya" Height="450" Width="800">
+    <Grid>
+        <Button Content="Розрахувати" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="35" Width="146" Click="Button_Click"/>
+        <Label Content="Магістр" HorizontalAlignment="Left" Margin="564,38,0,0" VerticalAlignment="Top" Width="73" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Студент" HorizontalAlignment="Left" Margin="251,38,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Ім'я" HorizontalAlignment="Left" Margin="59,93,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Оцінка" HorizontalAlignment="Left" Margin="59,129,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Спеціальність" HorizontalAlignment="Left" Margin="59,168,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Стипендія" HorizontalAlignment="Left" Margin="59,233,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="nam1" HorizontalAlignment="Left" Margin="226,101,0,0" TextWrapping="Wrap" Text="Андрій" VerticalAlignment="Top" Width="174"/>
+        <TextBox x:Name="nam2" HorizontalAlignment="Left" Margin="540,101,0,0" TextWrapping="Wrap" Text="Георг" VerticalAlignment="Top" Width="163" TextChanged="nam2_TextChanged"/>
+        <TextBox x:Name="mark1" HorizontalAlignment="Left" Margin="226,137,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="mark2" HorizontalAlignment="Left" Margin="540,137,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="scol1" Content="" HorizontalAlignment="Left" Margin="226,233,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="scol2" Content="" HorizontalAlignment="Left" Margin="540,233,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <ComboBox x:Name="spach" HorizontalAlignment="Left" Margin="540,169,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Комп'ютерна Інженерія" FontSize="14"/>
+            <ComboBoxItem Content="Інженерія ПЗ" FontSize="14"/>
+            <ComboBoxItem Content="Кібербезпека" FontSize="14"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

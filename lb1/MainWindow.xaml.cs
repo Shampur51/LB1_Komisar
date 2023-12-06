@@ -108,5 +108,11 @@ namespace lb1
                 MessageBox.Show(ex.Message);
             };
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var l2wind = new Spadkuvannya();
+            l2wind.Show();
+        }
     }
 }

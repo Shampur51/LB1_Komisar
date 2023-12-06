@@ -15,18 +15,18 @@
         <Label Content="Кут 2" HorizontalAlignment="Left" Height="25" Margin="30,218,0,0" VerticalAlignment="Top" Width="84"/>
         <Label Content="Кут 3" HorizontalAlignment="Left" Margin="30,248,0,0" VerticalAlignment="Top" Width="84"/>
         <Label Content="Кут 4" HorizontalAlignment="Left" Margin="30,279,0,0" VerticalAlignment="Top" Width="84"/>
-        <TextBox x:Name="s1_1" HorizontalAlignment="Left" Margin="119,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="s1_5" HorizontalAlignment="Left" Margin="119,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="s1_3" HorizontalAlignment="Left" Margin="119,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="s1_4" HorizontalAlignment="Left" Margin="119,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag1_1" HorizontalAlignment="Left" Margin="119,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag1_2" HorizontalAlignment="Left" Margin="119,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag1_3" HorizontalAlignment="Left" Margin="119,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag1_4" HorizontalAlignment="Left" Margin="119,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag2_1" HorizontalAlignment="Left" Margin="311,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag2_2" HorizontalAlignment="Left" Margin="311,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag2_3" HorizontalAlignment="Left" Margin="311,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ag2_4" HorizontalAlignment="Left" Margin="311,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="s1_1" HorizontalAlignment="Left" Margin="119,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="11"/>
+        <TextBox x:Name="s1_5" HorizontalAlignment="Left" Margin="119,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="12"/>
+        <TextBox x:Name="s1_3" HorizontalAlignment="Left" Margin="119,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="11"/>
+        <TextBox x:Name="s1_4" HorizontalAlignment="Left" Margin="119,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="12"/>
+        <TextBox x:Name="ag1_1" HorizontalAlignment="Left" Margin="119,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="100"/>
+        <TextBox x:Name="ag1_2" HorizontalAlignment="Left" Margin="119,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="80"/>
+        <TextBox x:Name="ag1_3" HorizontalAlignment="Left" Margin="119,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="100"/>
+        <TextBox x:Name="ag1_4" HorizontalAlignment="Left" Margin="119,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="80"/>
+        <TextBox x:Name="ag2_1" HorizontalAlignment="Left" Margin="311,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="100"/>
+        <TextBox x:Name="ag2_2" HorizontalAlignment="Left" Margin="311,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="80"/>
+        <TextBox x:Name="ag2_3" HorizontalAlignment="Left" Margin="311,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="100"/>
+        <TextBox x:Name="ag2_4" HorizontalAlignment="Left" Margin="311,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="80"/>
         <Label x:Name="s2_1" Content="Сторона 1 =" HorizontalAlignment="Left" Margin="311,45,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="s2_2" Content="Сторона 2 =" HorizontalAlignment="Left" Margin="311,74,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="s2_3" Content="Сторона 3 =" HorizontalAlignment="Left" Margin="311,104,0,0" VerticalAlignment="Top" Width="120"/>
@@ -39,11 +39,14 @@
         <Label x:Name="ag3_2" Content="Кут 2 =" HorizontalAlignment="Left" Margin="526,220,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="ag3_3" Content="Кут 3 =" HorizontalAlignment="Left" Margin="526,248,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="ag3_4" Content="Кут 4 =" HorizontalAlignment="Left" Margin="526,279,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Чи є паралелонамом" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Чи є паралелограмом" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Width="126"/>
         <Label x:Name="ch1" Content="" HorizontalAlignment="Left" Margin="179,355,0,0" VerticalAlignment="Top" Width="60"/>
         <Label x:Name="ch2" Content="" HorizontalAlignment="Left" Margin="371,355,0,0" VerticalAlignment="Top" Width="60"/>
         <Label x:Name="ch3" Content="" HorizontalAlignment="Left" Margin="586,355,0,0" VerticalAlignment="Top" Width="60"/>
         <Button x:Name="Butt" Content="Визначити" HorizontalAlignment="Left" Margin="701,153,0,0" VerticalAlignment="Top" Height="55" Width="122" Click="Butt_Click"/>
+        <Menu Margin="10,0,10,435">
+            <MenuItem Header="Спадкування" Click="MenuItem_Click" Height="26"/>
+        </Menu>
 
     </Grid>
 </Window>

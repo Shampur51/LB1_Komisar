@@ -18,3 +18,5 @@ C:\Users\komis\source\repos\lb1\lb1\obj\Debug\net6.0-windows\refint\lb1.dll
 C:\Users\komis\source\repos\lb1\lb1\obj\Debug\net6.0-windows\lb1.pdb
 C:\Users\komis\source\repos\lb1\lb1\obj\Debug\net6.0-windows\lb1.genruntimeconfig.cache
 C:\Users\komis\source\repos\lb1\lb1\obj\Debug\net6.0-windows\ref\lb1.dll
+C:\Users\komis\source\repos\lb1\lb1\obj\Debug\net6.0-windows\Spadkuvannya.g.cs
+C:\Users\komis\source\repos\lb1\lb1\obj\Debug\net6.0-windows\Spadkuvannya.baml
